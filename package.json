@@ -1,0 +1,22 @@
+{
+  "name": "homeautomation",
+  "version": "1.0.0",
+  "description": "homeAutomation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rutup/HomeAutomation.git"
+  },
+  "author": "rutu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rutup/HomeAutomation/issues"
+  },
+  "homepage": "https://github.com/rutup/HomeAutomation#readme",
+  "dependencies": {
+    "azure-iothub": "^1.3.0"
+  }
+}
