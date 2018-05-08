@@ -1,11 +1,10 @@
 'use strict';
 
-  
-
 var clientFromConnectionString = require('azure-iot-device-mqtt').clientFromConnectionString;
 var Message = require('azure-iot-device').Message;
 
-var connectionString = 'HostName=Rutu-HomeTest.azure-devices.net;DeviceId=myFirstDevice;SharedAccessKey=qdfoWBHqGLVY3PtMgWg6TOIgQxy0KzyI3hUD/Cb+oWE=';
+//var connectionString = 'HostName=Rutu-HomeTest.azure-devices.net;DeviceId=myFirstDevice;SharedAccessKey=qdfoWBHqGLVY3PtMgWg6TOIgQxy0KzyI3hUD/Cb+oWE=';
+var connectionString = process.argv[0]
 
 var client = clientFromConnectionString(connectionString);
 var gpio = require('rpi-gpio');
